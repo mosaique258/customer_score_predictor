@@ -93,3 +93,8 @@ The project is contained within a single Jupyter Notebook (`Customer_Score_Predi
 10. **Step 10 - Import model to Hugging Face:**
     - **Create Hugging Face Repository:** Uses `HfApi` to create a new repository on Hugging Face (or deletes and recreates it if it already exists).
     - **Upload trained model to Hugging Face Repository:** Uploads the saved model and tokenizer to the newly created Hugging Face repository using `upload_folder`. This makes the model available for deployment and sharing.
+
+
+Find the Hugging Face application [here](https://huggingface.co/spaces/mosaique258/customer-score-predictor).
+
+You can find further musings on this on my [blog](https://anja-ludwig.com).
